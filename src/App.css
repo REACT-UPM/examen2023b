@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#main {
+  text-align: center;
+}
+
+#cabecera {
+  background-color: #282c34;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.mensaje {
+  color: #61dafb;
+  margin-left: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.new {
+  margin-left: 20px;
+}
+
+
+#resultados {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+#resultados li {
+  list-style-type: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#resultados li p img {
+  width: 80px;
+  height: 80px;
+}
+
+#botonsearch {
+  margin-right: 20px;
+}
+
+.banner {
+  width: 500px;
+  margin: 0 auto;
+  height: 100px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #d38647;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nike {
+  height: 100px;
+}
+
+
+.editform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  width: 670px;
+  margin: 20px auto;
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.firstrow label {
+  margin-right: 20px;
+}
+
+.firstrow input {
+  margin-right: 20px;
+}
+
+.secondrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.secondrow label {
+  margin-right: 20px;
+}
+
+.secondrow input {
+  margin-right: 20px;
+}
+
+.thirdrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.thirdrow label {
+  margin-right: 20px;
+}
+
+.thirdrow button {
+  margin-right: 20px;
+}
